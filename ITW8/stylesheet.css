@@ -28,11 +28,7 @@ h2 {
 img{
     border-radius: 200px 200px 200px 200px;
 }
-body {
-  background-image: url('');
-  background-size: cover;
-  background-position: center;
-}
+
 
 /*code for mobile devices smaller than 600px*/
 body { background-color: palevioletred; }
