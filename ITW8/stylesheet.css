@@ -1,0 +1,57 @@
+p {
+    color: blue;
+}
+a {
+    color:red ;
+    font-family: sans-serif; font-style: italic;
+}
+h1, aside {
+background-color: gray;
+}
+h2 {
+    font-size: 15px;
+    background-color: #ccc;
+    margin: 15px;
+    padding: 15px;
+  }
+  body {
+    border-style: solid;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color:gray;
+    border-radius: 10px 20px 30px 40px;
+    margin: 16px;
+    padding: 16px;
+    
+  }
+img{
+    border-radius: 200px 200px 200px 200px;
+}
+
+
+/*code for mobile devices smaller than 600px*/
+body { background-color: palevioletred; }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   body { background-color:pink; }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   body { background-color: green; }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   body { background-color: yellow; }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   body { background-color: orange; }
+}
+
+ 
+
