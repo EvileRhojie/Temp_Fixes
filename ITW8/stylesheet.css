@@ -20,7 +20,10 @@ h2 {
     border-left-width: 10px;
     border-right-width: 10px;
     border-color:gray;
-    border-radius: 10px 20px 30px 40px;    
+    border-radius: 10px 20px 30px 40px;
+    margin: 16px;
+    padding: 16px;
+    
   }
 img{
     border-radius: 200px 200px 200px 200px;
