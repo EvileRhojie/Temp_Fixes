@@ -42,16 +42,7 @@ z-index: -1;
 object-fit: cover;
 width: 100%;
 }
-@media ( max-width: 650px){
-  .profile-picture {
-    content: url(../images/head.jpg);
-  }
-}
-@media ( max-width: 1000px){
-  .profile-picture {
-    content: url(../images/shoulders-and-face.jpg );
-  }
-}
+
 
 
 
